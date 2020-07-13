@@ -56,9 +56,6 @@
             this.knopWijzig = new System.Windows.Forms.Button();
             this.knopOpslaan = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.txtZoek = new System.Windows.Forms.TextBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -72,6 +69,9 @@
             this.Column12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.wijzig = new System.Windows.Forms.DataGridViewImageColumn();
             this.wissen = new System.Windows.Forms.DataGridViewImageColumn();
+            this.txtZoek = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.txtID = new System.Windows.Forms.Label();
             this.Copyright = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
@@ -262,9 +262,9 @@
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.label9.Location = new System.Drawing.Point(26, 183);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(75, 13);
+            this.label9.Size = new System.Drawing.Size(83, 13);
             this.label9.TabIndex = 9;
-            this.label9.Text = "WOOPLAATS";
+            this.label9.Text = "WOONPLAATS";
             // 
             // txtNotities
             // 
@@ -361,54 +361,6 @@
             this.dataGridView1.TabIndex = 22;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
-            // txtZoek
-            // 
-            this.txtZoek.Location = new System.Drawing.Point(886, 441);
-            this.txtZoek.Name = "txtZoek";
-            this.txtZoek.Size = new System.Drawing.Size(244, 20);
-            this.txtZoek.TabIndex = 24;
-            this.txtZoek.TextChanged += new System.EventHandler(this.txtZoek_TextChanged);
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.label11.Location = new System.Drawing.Point(748, 444);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(132, 13);
-            this.label11.TabIndex = 23;
-            this.label11.Text = "ZOEK OP ACHTERNAAM";
-            // 
-            // panel2
-            // 
-            this.panel2.Controls.Add(this.txtID);
-            this.panel2.Controls.Add(this.knopOpslaan);
-            this.panel2.Controls.Add(this.label2);
-            this.panel2.Controls.Add(this.txtVoornaam);
-            this.panel2.Controls.Add(this.label3);
-            this.panel2.Controls.Add(this.txtAchternaam);
-            this.panel2.Controls.Add(this.knopWijzig);
-            this.panel2.Controls.Add(this.label5);
-            this.panel2.Controls.Add(this.knopWis);
-            this.panel2.Controls.Add(this.txtStraat);
-            this.panel2.Controls.Add(this.txtNotities);
-            this.panel2.Controls.Add(this.label4);
-            this.panel2.Controls.Add(this.label10);
-            this.panel2.Controls.Add(this.txtPostcode);
-            this.panel2.Controls.Add(this.txtEmail);
-            this.panel2.Controls.Add(this.label9);
-            this.panel2.Controls.Add(this.label6);
-            this.panel2.Controls.Add(this.txtWoonplaats);
-            this.panel2.Controls.Add(this.txtMobiel);
-            this.panel2.Controls.Add(this.label8);
-            this.panel2.Controls.Add(this.label7);
-            this.panel2.Controls.Add(this.txtTelefoon);
-            this.panel2.Enabled = false;
-            this.panel2.Location = new System.Drawing.Point(43, 94);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1087, 341);
-            this.panel2.TabIndex = 25;
-            // 
             // Column1
             // 
             this.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
@@ -483,7 +435,6 @@
             this.Column12.HeaderText = "";
             this.Column12.Name = "Column12";
             this.Column12.Visible = false;
-            this.Column12.Width = 19;
             // 
             // wijzig
             // 
@@ -505,6 +456,54 @@
             this.wissen.Name = "wissen";
             this.wissen.Resizable = System.Windows.Forms.DataGridViewTriState.False;
             this.wissen.Width = 50;
+            // 
+            // txtZoek
+            // 
+            this.txtZoek.Location = new System.Drawing.Point(886, 441);
+            this.txtZoek.Name = "txtZoek";
+            this.txtZoek.Size = new System.Drawing.Size(244, 20);
+            this.txtZoek.TabIndex = 24;
+            this.txtZoek.TextChanged += new System.EventHandler(this.txtZoek_TextChanged);
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.label11.Location = new System.Drawing.Point(748, 444);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(132, 13);
+            this.label11.TabIndex = 23;
+            this.label11.Text = "ZOEK OP ACHTERNAAM";
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.txtID);
+            this.panel2.Controls.Add(this.knopOpslaan);
+            this.panel2.Controls.Add(this.label2);
+            this.panel2.Controls.Add(this.txtVoornaam);
+            this.panel2.Controls.Add(this.label3);
+            this.panel2.Controls.Add(this.txtAchternaam);
+            this.panel2.Controls.Add(this.knopWijzig);
+            this.panel2.Controls.Add(this.label5);
+            this.panel2.Controls.Add(this.knopWis);
+            this.panel2.Controls.Add(this.txtStraat);
+            this.panel2.Controls.Add(this.txtNotities);
+            this.panel2.Controls.Add(this.label4);
+            this.panel2.Controls.Add(this.label10);
+            this.panel2.Controls.Add(this.txtPostcode);
+            this.panel2.Controls.Add(this.txtEmail);
+            this.panel2.Controls.Add(this.label9);
+            this.panel2.Controls.Add(this.label6);
+            this.panel2.Controls.Add(this.txtWoonplaats);
+            this.panel2.Controls.Add(this.txtMobiel);
+            this.panel2.Controls.Add(this.label8);
+            this.panel2.Controls.Add(this.label7);
+            this.panel2.Controls.Add(this.txtTelefoon);
+            this.panel2.Enabled = false;
+            this.panel2.Location = new System.Drawing.Point(43, 94);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1087, 341);
+            this.panel2.TabIndex = 25;
             // 
             // txtID
             // 

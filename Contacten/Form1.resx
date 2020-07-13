@@ -156,14 +156,14 @@
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="wijzig.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAFuSURBVDhPpZI9K0ZhGMevMigWYfAyKGEwyELI26AMKBtl
-        8wEMBp+B3VeQTUoyKe9iEoPByyDKgGJj4f+7nLtzMpxze55f/Xqe/9V9Xc/9nOtYidTIZfkg1ymUS4v8
-        zrgvS6JVcqN22SPLHtolaf70ZNYrs0M3ZDRrcjCR5i8Jf4dGsSs5POHJrE9mh3ZL8qanAvYkh/s9me3I
-        Zjkqqb/LBsmPVMtcDiRN/E24leRtT2adkvzkqYBDyeEhT2b3knzsyWxGsmk+xyjkcSRpHvCUDjv1lD7D
-        D08FcAMOsz0Iw849pVt+k20U8uAGHOYGcCfJZ57MRiSZRTRRyCO8GjRBGHbiyWxYkl8lW85lXHJ4TlbJ
-        xySHBfAsyS+ykUIRvAY0wKLk+5WndBjPrJ5CDDRc/n515pNPXplws1oKMXRImqY9pUxJ6s+yjkIsS5LG
-        FTkrt5KMNzL6ZoGwzawsY0FWyH9zIa/lqpyUlbJEzH4AYIduA2mlwtwAAAAASUVORK5CYII=
+        iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        xAAADsQBlSsOGwAAAW5JREFUOE+lkj0rRmEYx68yKBZh8DIoYTDIQsjboAwoG2XzAQwGn4HdV5BNSjIp
+        72ISg8HLIMqAYmPh/7ucu3MynHN7nl/9ep7/1X1dz/2c61iJ1Mhl+SDXKZRLi/zOuC9LolVyo3bZI8se
+        2iVp/vRk1iuzQzdkNGtyMJHmLwl/h0axKzk84cmsT2aHdkvypqcC9iSH+z2Z7chmOSqpv8sGyY9Uy1wO
+        JE38TbiV5G1PZp2S/OSpgEPJ4SFPZveSfOzJbEayaT7HKORxJGke8JQOO/WUPsMPTwVwAw6zPQjDzj2l
+        W36TbRTy4AYc5gZwJ8lnnsxGJJlFNFHII7waNEEYduLJbFiSXyVbzmVccnhOVsnHJIcF8CzJL7KRQhG8
+        BjTAouT7lad0GM+snkIMNFz+fnXmk09emXCzWgoxdEiapj2lTEnqz7KOQixLksYVOSu3kow3MvpmgbDN
+        rCxjQVbIf3Mhr+WqnJSVskTMfgBgh24DaaXC3AAAAABJRU5ErkJggg==
 </value>
   </data>
   <metadata name="wissen.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
