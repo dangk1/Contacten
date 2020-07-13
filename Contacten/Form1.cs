@@ -107,8 +107,8 @@ namespace Contacten
                 while (sdr.Read())
                 {
 
-                    i++;
-                    dataGridView1.Rows.Add(i,
+                        i++;
+                        dataGridView1.Rows.Add(i,
                         sdr["Id"].ToString(),
                         sdr["Voornaam"].ToString(),
                         sdr["Achternaam"].ToString(),
@@ -173,7 +173,7 @@ namespace Contacten
                 }
                 else
                 {
-                    //do nothing
+                    //
                 }
             }
         }
@@ -218,8 +218,8 @@ namespace Contacten
                 while (sdr.Read())
                 {
 
-                    i++;
-                    dataGridView1.Rows.Add(i,
+                        i++;
+                        dataGridView1.Rows.Add(i,
                         sdr["Id"].ToString(),
                         sdr["Voornaam"].ToString(),
                         sdr["Achternaam"].ToString(),
